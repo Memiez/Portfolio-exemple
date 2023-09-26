@@ -1,0 +1,96 @@
+/* เฮดเดอร์ */
+header {
+    background-color: rgb(62, 1, 1);
+    color: rgb(187, 147, 147);
+    padding: 20px 0;
+    text-align: center;
+}
+
+/* เมนู */
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #ff5733; /* เปลี่ยนสีเมื่อโฮเวอร์ */
+}
+
+/* หัวเรื่องหลัก */
+h1 {
+    font-size: 36px;
+    color: #333;
+}
+
+/* เนื้อหา */
+p {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #666;
+}
+
+/* พอร์ตโฟลิโอ */
+.portfolio-item {
+    margin-bottom: 30px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    background-color: #f9f9f9;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.portfolio-item img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* หน้าเกี่ยวกับ */
+#about img {
+    max-width: 200px;
+    height: auto;
+    border-radius: 50%; /* ทำให้รูปมีรูปร่างวงกลม */
+}
+
+/* แบบฟอร์มติดต่อ */
+form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+form input[type="text"],
+form input[type="email"],
+form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form button[type="submit"] {
+    background-color: #ff5733;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+form button[type="submit"]:hover {
+    background-color: #333;
+}
+

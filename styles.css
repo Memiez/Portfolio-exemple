@@ -1,11 +1,11 @@
 /* เฮดเดอร์ */
 header {
     background-color: rgb(92, 8, 8);
-    color: rgb(255, 255, 255);
-    padding: 20px 0;
+    color: hwb(0 100% 0%);
+    padding: 8px 0;
     text-align: center;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
 }
 
@@ -126,4 +126,10 @@ form button[type="submit"] {
 
 form button[type="submit"]:hover {
     background-color: #333;
+}
+
+
+/* ใช้แบบอักษร */
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }

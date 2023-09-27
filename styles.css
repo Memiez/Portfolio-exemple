@@ -47,13 +47,13 @@ li {
 
 body {
   font-family: 'Courier New', Courier, monospace;
-  background-color: #8338ec;
+  background-color: #e4c1f9;
   color: #ffffff;
   line-height: 1.6;
 }
 
 header {
-  background-color: #ff006e;
+  background-color: #e27396;
   color: #fff;
   text-align: center;
   padding: 20px;
@@ -84,9 +84,10 @@ section {
   max-width: 800px;
   margin: 0 auto;
   padding: 20px;
-  background-color: #3a86ff;
+  background-color: #6096ba;
   box-shadow: 0 0 5px rgba(255, 255, 255, 0.1);
   margin-top: 20px;
+  border-radius: 20px;
 }
 
 /* Add more styles for sections, links, and other elements as needed */

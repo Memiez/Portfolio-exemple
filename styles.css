@@ -5,6 +5,12 @@
 
 /* กำหนดและตั้งค่าสำหรับ header */
 
+.header-content img {
+    width: 150px; /* ปรับขนาดรูปภาพตามที่คุณต้องการ */
+    border-style: solid 50%; /* กรอบรูป */
+    margin-bottom: 10px;
+}
+
 
 header h1 {
   font-size: 24px;
@@ -57,7 +63,7 @@ header {
   color: #fff;
   text-align: center;
   padding: 20px;
-  position: sticky;
+  position: static;
   top: 0;
   padding: 10px 0;
     z-index: 100;

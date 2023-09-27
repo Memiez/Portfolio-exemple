@@ -19,6 +19,22 @@ header h1 {
   display: inline;
 }
 
+
+/* สไตล์ปุ่มเมนู */
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 5px 10px; /* ขนาดของปุ่ม */
+    border-radius: 5px; /* ขอบมน */
+    transition: background-color 0.3s, color 0.3s; /* เพิ่มอนิเมชันเมื่อโฮเวอร์ */
+}
+
+nav ul li a:hover {
+    background-color: #e8a6bb; /* สีพื้นหลังเมื่อโฮเวอร์ */
+    color: #fff; /* สีของข้อความเมื่อโฮเวอร์ */
+}
+
+
 nav {
   display: inline-block;
 }
@@ -94,6 +110,31 @@ section {
   box-shadow: 0 0 5px rgba(255, 255, 255, 0.1);
   margin-top: 20px;
   border-radius: 20px;
+}
+
+#contact textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+
+/* ปุ่ม Submit */
+#contact input[type="submit"] {
+    background-color: #e27396; /* สีพื้นหลัง */
+    color: #fff; /* สีของข้อความ */
+    border-style: double; /* ลบเส้นขอบ */
+    padding: 10px 20px; /* ขนาดของปุ่ม */
+    cursor: pointer; /* เมาส์เป็นรูปแสดงการคลิก */
+    font-size: 18px; /* ขนาดตัวอักษร */
+    border-radius: 3px; /* ขอบมน */
+}
+
+#contact input[type="submit"]:hover {
+    background-color: #0056b3; /* สีพื้นหลังเมื่อโฮเวอร์ */
 }
 
 /* Add more styles for sections, links, and other elements as needed */
